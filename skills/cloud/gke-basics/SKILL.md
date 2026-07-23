@@ -60,6 +60,9 @@ requirements. **Do not load multiple GKE skills unless explicitly required.**
 :                      : StorageClass, GCS FUSE     :                          :
 | Reliability          | PDB, health probe,         | `gke-reliability`        |
 :                      : liveness, readiness        :                          :
+| Productionization    | production readiness,      | `gke-productionize`      |
+:                      : productionize, readiness   :                          :
+:                      : scoring, audit cluster     :                          :
 
 ## Conceptual & Informational Queries (CRITICAL)
 
