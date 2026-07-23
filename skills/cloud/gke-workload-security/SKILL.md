@@ -45,7 +45,7 @@ script.
 **Command:**
 
 ```bash
-third_party/skills/skills/cloud/gke-workload-security/scripts/audit_cluster.sh <cluster-name> <region> <project-id>
+scripts/audit_cluster.sh <cluster-name> <region> <project-id>
 ```
 
 ### 2. Configure Workload Identity
@@ -81,11 +81,11 @@ access Google Cloud APIs.
     ```
 
 4.  **Verify Example Pod:** Use existing asset
-    `third_party/skills/skills/cloud/gke-workload-security/assets/workload-identity-pod.yaml`
-    to test the configuration. Update the `<ksa-name>` in the file first.
+    `assets/workload-identity-pod.yaml` to test the configuration. Update the
+    `<ksa-name>` in the file first.
 
     ```bash
-    kubectl apply -f third_party/skills/skills/cloud/gke-workload-security/assets/workload-identity-pod.yaml -n workload-identity-test-ns
+    kubectl apply -f assets/workload-identity-pod.yaml -n workload-identity-test-ns
     ```
 
 ### 3. Implement Network Policies
@@ -110,7 +110,7 @@ egress traffic by default.
 **Replace `<target-namespace>` with the namespace you want to isolate.**
 
 ```bash
-kubectl apply -f third_party/skills/skills/cloud/gke-workload-security/assets/default-deny-netpol.yaml -n <target-namespace>
+kubectl apply -f assets/default-deny-netpol.yaml -n <target-namespace>
 ```
 
 ### 4. GKE Sandbox (gVisor) Pod Isolation
