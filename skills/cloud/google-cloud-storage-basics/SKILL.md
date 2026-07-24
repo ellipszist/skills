@@ -176,6 +176,3 @@ to `gcloud storage` and the JSON API when no MCP server is available.
 -   [GCSFuse](references/gcsfuse.md): Installing Cloud Storage FUSE, mounting
     buckets, file operations, POSIX semantics and limitations (locking, writes,
     renames, consistency), and caching.
-
-*If you need product information not found in these references, use the
-Developer Knowledge MCP server `search_documents` tool.*
