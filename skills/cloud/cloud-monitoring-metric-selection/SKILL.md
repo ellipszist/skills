@@ -1,5 +1,7 @@
 ---
 name: cloud-monitoring-metric-selection
+metadata:
+  category: CloudObservabilityAndMonitoring
 description: >-
   Retrieve, query, and identify relevant Google Cloud Monitoring metric
   descriptors for a GCP service or resource (such as Compute Engine, Spanner,

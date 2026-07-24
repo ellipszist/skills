@@ -20,11 +20,10 @@ repo to install.
 ## Available Skills
 
 <!-- BEGIN SKILLS -->
-
 - **Getting started with Google Cloud**
   -   [**Authenticating to Google Cloud**](./skills/cloud/google-cloud-recipe-auth)
   -   [**Google Cloud Recipe: Foundation Builder**](./skills/cloud/google-cloud-recipe-foundation-builder)
-  -   [**Google Cloud solution-architecture process**](./skills/cloud/google-cloud-solution-architecture)
+  -   [**Google Cloud solution-architecture workflow**](./skills/cloud/google-cloud-solution-architecture)
   -   [**Onboarding to Google Cloud**](./skills/cloud/google-cloud-recipe-onboarding)
 - **AI/ML**
   -   [**Agent Platform Alert Configuration**](./skills/cloud/agent-platform-alert-configuration)
@@ -39,11 +38,14 @@ repo to install.
   -   [**Agent Platform Tuning Management**](./skills/cloud/agent-platform-tuning-management)
   -   [**BigQuery AI & ML**](./skills/cloud/bigquery-ai-ml)
   -   [**Build and deploy AI agents on Google Cloud**](./skills/cloud/google-cloud-solution-build-deploy-agents)
+  -   [**Data science workflow with AI agents solution**](./skills/cloud/google-cloud-solution-agentic-ai-data-science-workflow)
   -   [**Gemini API in Agent Platform**](./skills/cloud/gemini-api)
   -   [**Gemini Enterprise Agent Platform - Managed Agents API Skill**](./skills/cloud/gemini-agents-api)
   -   [**Gemini Interactions API Skill**](./skills/cloud/gemini-interactions-api)
   -   [**Live bidirectional multimodal streaming agentic AI solution**](./skills/cloud/google-cloud-solution-agentic-ai-bidirectional-streaming)
+  -   [**LiveAPI Service Skill**](./skills/cloud/gemini-live-api)
   -   [**Migrating from Gemini API in AI Studio to Agent Platform**](./skills/cloud/agent-platform-migrate-from-ai-studio)
+  -   [**RAG for enterprise search using GKE and AlloyDB**](./skills/cloud/google-cloud-solution-rag-enterprise-search-gke-sqldb)
   -   [**Skill Registry**](./skills/cloud/agent-platform-skill-registry)
 - **Infrastructure**
   -   [**GKE AI/ML Inference**](./skills/cloud/gke-inference)
@@ -57,29 +59,37 @@ repo to install.
   -   [**GKE Golden Path Configuration**](./skills/cloud/gke-golden-path)
   -   [**GKE Multi-Tenancy**](./skills/cloud/gke-multitenancy)
   -   [**GKE Networking**](./skills/cloud/gke-networking)
+  -   [**GKE Productionize Skill**](./skills/cloud/gke-productionize)
   -   [**GKE Reliability**](./skills/cloud/gke-reliability)
+  -   [**GKE Service Networking Skill**](./skills/cloud/gke-service-networking)
   -   [**GKE Storage**](./skills/cloud/gke-storage)
   -   [**GKE Upgrades & Maintenance**](./skills/cloud/gke-upgrades)
-  -   [**GKE Workload Scaling**](./skills/cloud/gke-scaling)
+  -   [**GKE Workload Scaling**](./skills/cloud/gke-workload-scaling)
   -   [**Google Cloud global external Application Load Balancer Configuration Skill**](./skills/cloud/google-cloud-global-frontend-configuration)
   -   [**Google Cloud Networking Observability Expert**](./skills/cloud/google-cloud-networking-observability)
   -   [**Google Cloud Storage Basics**](./skills/cloud/google-cloud-storage-basics)
--   **Databases and analytics**
-    -   [**AlloyDB Basics**](./skills/cloud/alloydb-basics)
-    -   [**BigFrames Development Standards**](./skills/cloud/bigquery-bigframes)
-    -   [**BigQuery Asset Impact Analysis**](./skills/cloud/datalineage-bigquery-asset-impact-analysis)
-    -   [**BigQuery Basics**](./skills/cloud/bigquery-basics)
-    -   [**Bigtable Basics**](./skills/cloud/bigtable-basics)
-    -   [**Cloud SQL Basics**](./skills/cloud/cloud-sql-basics)
-    -   [**Data Lineage Summary**](./skills/cloud/datalineage-summary)
+  -   [**Migrate AI Workloads to GKE Inference**](./skills/cloud/google-cloud-solution-guided-gke-ai-migration)
+- **Databases and analytics**
+  -   [**Agentic analytics across cloud providers and data types**](./skills/cloud/google-cloud-solution-agentic-analytics-spark-knowledge-catalog)
+  -   [**AlloyDB Basics**](./skills/cloud/alloydb-basics)
+  -   [**BigFrames (BigQuery DataFrame) basics**](./skills/cloud/bigquery-bigframes)
+  -   [**BigQuery Asset Impact Analysis**](./skills/cloud/datalineage-bigquery-asset-impact-analysis)
+  -   [**BigQuery Basics**](./skills/cloud/bigquery-basics)
+  -   [**Bigtable Basics**](./skills/cloud/bigtable-basics)
+  -   [**Borderless open data lakehouse agentic AI system**](./skills/cloud/google-cloud-solution-agentic-ai-borderless-data-lakehouse)
+  -   [**Cloud SQL Basics**](./skills/cloud/cloud-sql-basics)
+  -   [**Data Lineage Summary**](./skills/cloud/datalineage-summary)
 - **Developer tools**
   -   [**gcloud CLI Skill for AI Agents**](./skills/cloud/gcloud)
   -   [**Google Agents CLI Onboarding**](./skills/cloud/google-agents-cli-onboarding)
--   **Management tools**
-    -   [**GKE Cost Analysis**](./skills/cloud/gke-cost-analysis)
-    -   [**GKE Cost Optimization**](./skills/cloud/gke-cost-optimization)
-    -   [**GKE Observability**](./skills/cloud/gke-observability)
-    -   [**Workload Manager Basics**](./skills/cloud/workload-manager-basics)
+- **Management tools**
+  -   [**Generate Logging Query Language queries**](./skills/cloud/cloud-logging-query-generation)
+  -   [**GKE Cost Analysis**](./skills/cloud/gke-cost-analysis)
+  -   [**GKE Cost Optimization**](./skills/cloud/gke-cost-optimization)
+  -   [**GKE Observability**](./skills/cloud/gke-observability)
+  -   [**Handle Disruption on GPUs and TPUs Troubleshooting**](./skills/cloud/gke-ai-troubleshooting-handle-disruption-gpu-tpu)
+  -   [**Metric Selection (Service Query & Local Keyword Filtering)**](./skills/cloud/cloud-monitoring-metric-selection)
+  -   [**Workload Manager Basics**](./skills/cloud/workload-manager-basics)
 - **Well-Architected Framework**
   -   [**Google Cloud Well-Architected Framework skill for the Cost Optimization pillar**](./skills/cloud/google-cloud-waf-cost-optimization)
   -   [**Google Cloud Well-Architected Framework skill for the Operational Excellence pillar**](./skills/cloud/google-cloud-waf-operational-excellence)
@@ -88,12 +98,13 @@ repo to install.
   -   [**Google Cloud Well-Architected Framework skill for the Security pillar**](./skills/cloud/google-cloud-waf-security)
   -   [**Google Cloud Well-Architected Framework skill for the Sustainability pillar**](./skills/cloud/google-cloud-waf-sustainability)
 - **Security and identity**
-  -   [**GKE Security**](./skills/cloud/gke-security)
-  -   [**IAM Recommendations Retrieval**](./skills/cloud/iam-recommendations-fetcher)
+  -   [**GKE Platform Security**](./skills/cloud/gke-platform-security)
+  -   [**GKE Workload Security**](./skills/cloud/gke-workload-security)
   -   [**SecOps Detection Coverage Skill**](./skills/cloud/detection-engineering-coverage-evaluation)
 - **Web and app hosting**
   -   [**Cloud Run Basics**](./skills/cloud/cloud-run-basics)
   -   [**Firebase Basics**](./skills/cloud/firebase-basics)
+  -   [**Secure n-tier serverless web application with strict private application tiers**](./skills/cloud/google-cloud-solution-n-tier-serverless-web-app)
 - **Advertising**
   -   [**AI Migration Agent Instructions for the Google Mobile Ads SDK**](./skills/ads/google-mobile-ads-android-migrate-to-next-gen)
   -   [**Data Manager API Audience Ingestion**](./skills/ads/data-manager-api-audience-ingestion)
@@ -108,9 +119,6 @@ repo to install.
   -   [**Google Mobile Ads SDK - Rewarded Ads**](./skills/ads/google-mobile-ads-rewarded)
   -   [**IMA SDK basics**](./skills/ads/ima-sdk-basics)
 - **Others**
-  -   [**Borderless open data lakehouse agentic AI system**](./skills/cloud/google-cloud-solution-agentic-ai-borderless-data-lakehouse)
-  -   [**Data science workflow with AI agents solution**](./skills/cloud/google-cloud-solution-agentic-ai-data-science-workflow)
-  -   [**Generate Logging Query Language queries**](./skills/cloud/cloud-logging-query-generation)
   -   [**Getting Started with Google Analytics Admin API**](./skills/analytics/google-analytics-admin-api-basics)
   -   [**Getting Started with Google Analytics Data API**](./skills/analytics/google-analytics-data-api-basics)
 <!-- END SKILLS -->
@@ -120,6 +128,8 @@ repo to install.
 -   [**Flutter Skills**](https://github.com/flutter/skills)
 -   [**Dart Skills**](https://github.com/dart-lang/skills)
 -   [**Advanced Google Cloud Storage Skills**](https://github.com/gemini-cli-extensions/google-cloud-storage)
+-   [**Agent Development Kit (ADK) Skills**](https://github.com/google/agents-cli)
+-   [**Firestore Skills**](https://github.com/firebase/agent-skills/tree/main/skills/firebase-firestore)
 
 ## Support
 
